@@ -1,5 +1,6 @@
 Overview
 This is a simple, dependency-free counter implemented with vanilla JavaScript. The project demonstrates basic DOM manipulation, event handling, and state management. It can be used as a learning example or a starting point for more complex UI components.
+<img width="778" height="405" alt="Snap36" src="https://github.com/user-attachments/assets/6d6ea4c7-6afa-4a56-8e43-9d8ea732ec02" />
 
 Key Features
 Increment, Decrement, and Reset controls to adjust the counter value.
