@@ -1,41 +1,47 @@
 body {
-    background-color: rgb(204, 240, 232);
-    text-align: center;
-    font-family: monospace;
-    outline: 0;
+  background-color: rgb(204, 240, 232);
+  text-align: center;
+  font-family: monospace;
+  outline: 0;
 }
 #counter {
-    font-size: 30px;
-    margin: 10px 0;
+  font-size: 30px;
+  margin: 10px 0;
 }
 #buttons {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 #buttons button {
-    margin: 10px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    outline: 0;
-    transition-duration: 400ms;
-    color: #fff;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  transition-duration: 400ms;
+  color: #fff;
 }
 #buttons button:hover {
-    box-shadow: 1px 1px gray;
+  box-shadow: 1px 1px gray;
 }
 #buttons button.start {
-    background-color: rgb(64, 74, 165);
-    
+  background-color: rgb(64, 74, 165);
 }
 #buttons button.start:disabled {
-    background-color: gray;
-}
-#buttons button.pause:disabled {
-    background-color: gray;
+  background-color: gray;
 }
 #buttons button.pause {
-    background-color: rgb(238, 92, 92);
+  background-color: rgb(238, 92, 92);
+}
+
+#buttons button.pause:disabled {
+  background-color: gray;
+}
+#buttons button.reset {
+  background-color: rgb(56, 179, 127);
+}
+#buttons button.reset:disabled {
+  background-color: gray;
 }

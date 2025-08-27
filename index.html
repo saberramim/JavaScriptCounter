@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./js/script.js"></script>
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
     <title>JavaScript Counter</title>
   </head>
-  <body>
+  <body onload="onLoadCounter()">
     <h1>JavaScript Counter</h1>
     <p id="description">This project is written with JavaScript</p>
 
     <div id="counter">0</div>
     <div id="buttons">
       <button onclick="start()" type="button" class="start">Start</button>
-      <button onclick="pause()" type="button" class="pause">Pause</button>
+      <button disabled onclick="pause()" type="button" class="pause">
+        Pause
+      </button>
+      <button disabled onclick="reset()" type="button" class="reset">
+        Reset
+      </button>
     </div>
   </body>
 </html>
